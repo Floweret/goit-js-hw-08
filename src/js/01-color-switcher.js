@@ -6,7 +6,6 @@ buttonStartRef.addEventListener('click', onButtonStart);
 buttonStopRef.addEventListener('click', onButtonStop);
 
 let intervalId;
-
 function onButtonStart(event) {
   buttonStartRef.disabled = true;
   buttonStopRef.disabled = false;
